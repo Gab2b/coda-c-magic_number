@@ -32,11 +32,12 @@ int main(int argc, char *argv[])
 
 		if (0 < nombre_choisi && nombre_choisi <= 100)
 		{
-			if (nombre_choisi<nombre_random)
+			if (nombre_choisi < nombre_random)
 			{
 				printf("C'est plus !\n\n");
 			}
-			else if (nombre_choisi>nombre_random)
+
+			else if (nombre_choisi > nombre_random)
 			{
 				printf("C'est moins !\n\n");
 			}
@@ -52,7 +53,7 @@ int main(int argc, char *argv[])
 
 	// Fin du jeu et du programme
 
-	printf("\n★★★ Bravo! Vous avez trouvé le nombre magique et gagné ! ★★★\n\n");
+	printf("\n\n\e[1;32m★★★ Bravo! Vous avez trouvé le nombre magique et gagné ! ★★★\e[0m\n\n");
 
 	return 0;
 }

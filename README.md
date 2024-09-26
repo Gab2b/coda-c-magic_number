@@ -13,4 +13,4 @@ Ce programme en C est un jeu simple où l'utilisateur doit deviner un nombre mys
 Pour faire fonctionner le programme en le compilant, utilisez la commande suivante dans votre terminal :
 
 ```bash
-gcc -o nombre_mystere nombre_mystere.c
+gcc nombre_mystere.c -o nombre_mystere
